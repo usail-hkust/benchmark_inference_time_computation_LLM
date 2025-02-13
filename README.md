@@ -11,6 +11,19 @@ In this project, we investigate and benchmark diverse inference-time computation
 ### 1.1 Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/usail-hkust/benchmark_inference_time_computation_LLM
+
+# Change directory to the cloned repository
+cd benchmark_inference_time_computation_LLM
+
+# Create a new conda environment with Python 3.12
+conda create -n llm_reasoning python=3.12
+
+# Activate the conda environment
+conda activate llm_reasoning
+
+# Install the required dependencies
 pip install -r requirements.txt
 ```
 
@@ -429,3 +442,24 @@ sudo env CUDA_VISIBLE_DEVICES=2,3,4,5 python -u run.py \
 
 
 
+## 4. Acknowledgements
+
+We would like to express our gratitude to the [Princeton NLP Tree of Thought LLM project](https://github.com/princeton-nlp/tree-of-thought-llm) for their invaluable contributions.
+
+
+
+## 5. Citation
+
+If you find our work useful, please cite:
+
+```bibtex
+@misc{liu2025bagtricksinferencetimecomputation,
+    title={Bag of Tricks for Inference-time Computation of LLM Reasoning}, 
+    author={Fan Liu and Wenshuo Chao and Naiqiang Tan and Hao Liu},
+    year={2025},
+    eprint={2502.07191},
+    archivePrefix={arXiv},
+    primaryClass={cs.AI},
+    url={https://arxiv.org/abs/2502.07191}, 
+}
+```
