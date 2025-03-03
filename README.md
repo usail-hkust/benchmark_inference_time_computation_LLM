@@ -442,8 +442,12 @@ sudo env CUDA_VISIBLE_DEVICES=2,3,4,5 python -u run.py \
 
 *This trick evaluates the effect of different reward model types on model performance, including `qwq_as_process_reward`, `llm_as_reward_value`, and `llm_as_critic_value`
 
+## Add A New Task
 
+Setting up a new task is easy, and mainly involves two steps.
 
+* Set up a new task class in `tasks/` and task files in `data/`. See `tasks/MATH.py` for an example. Add the task to `tasks/__init__.py`.
+* Set up task-specific prompts in `prompts/`. See `prompts/MATH.py` for an example.
 
 ## 4. Acknowledgements
 
