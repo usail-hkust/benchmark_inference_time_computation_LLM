@@ -6,6 +6,9 @@ With the advancement of large language models (LLMs), solving complex reasoning 
 
 In this project, we investigate and benchmark diverse inference-time computation strategies across reasoning tasks of varying complexity. Since most current methods rely on a proposer-verifier pipeline that first generates candidate solutions and then selects the best one based on reward signals, our research focuses on optimizing both candidate solution generation (e.g., instructing prompts, hyperparameters such as temperature and top-p) and reward mechanisms (e.g., self-evaluation, reward types). Through extensive experiments (more than 20,000 A100-80G GPU hours with over 1,000 experiments) across a variety of models (e.g., Llama, Qwen, and Mistral families), our ablation studies reveal that previously overlooked strategies can significantly enhance performance. Furthermore, we establish a standardized benchmark for inference-time computation by systematically evaluating six representative methods across eight reasoning tasks.
 
+
+[Read the full paper on arXiv](https://arxiv.org/abs/2502.07191)
+
 ## 1. Quick Start
 
 ### 1.1 Installation
