@@ -1,5 +1,13 @@
 # Inference-Time Computation Strategies for LLM Reasoning
 
+
+
+## 📰 News
+ 1. **2025-09**
+🎉 Our paper *"Bag of Tricks for Inference-time Computation of LLM Reasoning"* has been accepted to the **NeurIPS D&B 2025**!
+📄 [Read the paper on arXiv](https://arxiv.org/pdf/2502.07191)
+
+
 ## 0. Overview
 
 With the advancement of large language models (LLMs), solving complex reasoning tasks has gained increasing attention. Inference-time computation methods (e.g., Best-of-N, beam search) are particularly valuable as they enhance reasoning performance without modifying model parameters or requiring additional training. However, these techniques come with implementation challenges, and most existing methods remain at the proof-of-concept stage with limited practical adoption due to computational complexity and varying effectiveness across different tasks.
